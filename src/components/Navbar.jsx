@@ -74,9 +74,9 @@ function Navbar({ children }) {
     <>
       <header className={`navbar ${isScrolled ? 'navbar--scrolled' : ''}`} role="banner">
         <div className="navbar__container container">
-          <Link to="/" className="navbar__brand" aria-label="PropertyBook Home">
+          <Link to="/" className="navbar__brand" aria-label="Roamstead Home">
             <img className="navbar__logo" src="/propertybook-mark.svg" alt="" />
-            <span className="navbar__brand-text">PropertyBook</span>
+            <span className="navbar__brand-text">Roamstead</span>
           </Link>
           <nav className="navbar__nav" aria-label="Main navigation"><ul className="navbar__list"><li><NavLink to="/" className={navLinkClass} end>Home</NavLink></li><li><NavLink to="/listings" className={navLinkClass}>Browse</NavLink></li></ul></nav>
           <div className="navbar__actions">
@@ -105,7 +105,7 @@ function Navbar({ children }) {
       </header>
       <main>{children}</main>
       <Footer />
-      {authOpen && <div className="auth-overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setAuthOpen(false); }}><section className="auth-dialog" role="dialog" aria-modal="true" aria-labelledby="auth-title"><button className="auth-close" onClick={() => setAuthOpen(false)} aria-label="Close sign in">×</button><span className="eyebrow">WELCOME TO PROPERTYBOOK</span><h2 id="auth-title">Your next stay<br /><em>starts here.</em></h2><p className="auth-intro">Sign in to keep your travel plans in one place.</p><form onSubmit={signIn} className="auth-form"><label htmlFor="auth-name">Your name</label><input id="auth-name" name="name" autoComplete="name" placeholder="Alex Morgan" required /><label htmlFor="auth-email">Email address</label><input id="auth-email" name="email" type="email" autoComplete="email" placeholder="you@example.com" required />{authError && <p className="auth-error" role="alert">{authError}</p>}<button className="btn btn-primary btn-full" type="submit">Continue with email <span>↗</span></button></form><p className="auth-note">This demo saves your profile on this device.</p></section></div>}
+      {authOpen && <div className="auth-overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setAuthOpen(false); }}><section className="auth-dialog" role="dialog" aria-modal="true" aria-labelledby="auth-title"><button className="auth-close" onClick={() => setAuthOpen(false)} aria-label="Close sign in">×</button><span className="eyebrow">WELCOME TO ROAMSTEAD</span><h2 id="auth-title">Your next stay<br /><em>starts here.</em></h2><p className="auth-intro">Sign in to keep your travel plans in one place.</p><form onSubmit={signIn} className="auth-form"><label htmlFor="auth-name">Your name</label><input id="auth-name" name="name" autoComplete="name" placeholder="Alex Morgan" required /><label htmlFor="auth-email">Email address</label><input id="auth-email" name="email" type="email" autoComplete="email" placeholder="you@example.com" required />{authError && <p className="auth-error" role="alert">{authError}</p>}<button className="btn btn-primary btn-full" type="submit">Continue with email <span>↗</span></button></form><p className="auth-note">This demo saves your profile on this device.</p></section></div>}
     </>
   );
 }

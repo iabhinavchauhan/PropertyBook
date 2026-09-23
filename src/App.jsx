@@ -18,9 +18,9 @@ function ProtectedDashboard() {
 }
 
 const pageTitles = {
-  '/': 'PropertyBook | Stay Comfortably Across Uttarakhand',
-  '/listings': 'Browse Stays | PropertyBook',
-  '/dashboard': 'Your Dashboard | PropertyBook',
+  '/': 'Roamstead | Stay Comfortably Across Uttarakhand',
+  '/listings': 'Browse Stays | Roamstead',
+  '/dashboard': 'Your Dashboard | Roamstead',
 };
 
 function RouteLoader() {
@@ -38,8 +38,8 @@ function PageTitle() {
   useEffect(() => {
     const propertyMatch = pathname.match(/^\/property\/([^/]+)$/);
     document.title = propertyMatch
-      ? 'Property Details | PropertyBook'
-      : (pageTitles[pathname] || 'PropertyBook | Stay Comfortably Across Uttarakhand');
+      ? 'Stay Details | Roamstead'
+      : (pageTitles[pathname] || 'Roamstead | Stay Comfortably Across Uttarakhand');
   }, [pathname]);
 
   return null;

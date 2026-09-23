@@ -9,12 +9,15 @@ function Footer() {
           <div className="site-footer__brand">
             <Link to="/" className="site-footer__logo">
               <img src="/propertybook-mark-light.svg" width="32" height="32" alt="" />
-              <span>PropertyBook</span>
+              <span>Roamstead</span>
             </Link>
             <p className="site-footer__tagline">
               Discover unforgettable stays and make every trip memorable. Your trusted partner in hospitality.
             </p>
             <div className="site-footer__social">
+              <a href="https://abhinavchauhansite.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Portfolio website (opens in a new tab)" title="Portfolio" className="site-footer__social-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </a>
               <a href="https://www.instagram.com/thakurabhinavsinghchauhan.in/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile (opens in a new tab)" className="site-footer__social-link">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
               </a>
@@ -37,7 +40,7 @@ function Footer() {
           </div>
         </div>
         <div className="site-footer__bottom">
-          <p>&copy; {new Date().getFullYear()} PropertyBook. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Roamstead. All rights reserved.</p>
           <div className="site-footer__legal">
             <Link to="#">Privacy</Link>
             <Link to="#">Terms</Link>

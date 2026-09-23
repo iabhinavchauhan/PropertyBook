@@ -430,7 +430,7 @@ main { min-height: calc(100vh - var(--header-height) - 400px); }
 @media (max-width: 900px) { .listings-layout { flex-direction: column; } .filter-sidebar { width: 100%; position: static; } }
 @media (max-width: 600px) { .property-grid { grid-template-columns: 1fr; } }
 
-/* PropertyBook editorial redesign */
+/* Roamstead editorial redesign */
 :root { --color-primary:#315b49; --color-primary-hover:#244635; --color-primary-light:#e5ece5; --color-primary-dark:#213e32; --color-accent:#c46f4d; --color-accent-hover:#a95739; --color-bg:#f8f7f3; --color-bg-white:#fffefa; --color-bg-hover:#f0eee8; --color-text-primary:#26352e; --color-text-secondary:#657168; --color-text-muted:#858c83; --color-border:#dddcd3; --color-border-light:#ebe9e1; --header-height:76px; --z-sticky:200; --transition-fast:.2s; --transition-base:.3s; }
 body { font-family:'Inter',sans-serif; background:#f8f7f3; color:#26352e; }
 main { overflow:hidden; }
