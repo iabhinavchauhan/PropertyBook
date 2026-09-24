@@ -16,6 +16,10 @@ Roamstead is a modern accommodation discovery platform designed to help users ex
 * Clean and intuitive user interface
 * Fast and smooth browsing experience
 
+## Screenshots
+<img width="1920" height="893" alt="Screenshot 2026-09-23 222336" src="https://github.com/user-attachments/assets/2e6771ce-db41-4824-b014-485bcf6ef01f" />
+
+
 ## Tech Stack
 
 * React.js
