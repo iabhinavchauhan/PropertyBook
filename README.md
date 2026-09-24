@@ -1,12 +1,101 @@
-# React + Vite
+# Roamstead
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Roamstead — Stays with a sense of place.**
 
-Currently, two official plugins are available:
+Roamstead is a modern accommodation discovery platform designed to help users explore and discover unique stays across different destinations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Live Website:** https://roamstead-mu.vercel.app/
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Modern and responsive accommodation interface
+* Browse and discover stays
+* Location-based property discovery
+* Property images and information
+* Responsive design for desktop, tablet, and mobile
+* Clean and intuitive user interface
+* Fast and smooth browsing experience
+
+## Tech Stack
+
+* React.js
+* Vite
+* JavaScript
+* HTML5
+* CSS3 / Tailwind CSS
+* Git & GitHub
+* Vercel
+
+## Project Structure
+
+```text
+roamstead/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## Development
+
+Install the project dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build the project for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+The project is deployed on Vercel.
+
+**Live Website:** https://roamstead-mu.vercel.app/
+
+## Future Enhancements
+
+* User authentication
+* Property booking system
+* Availability management
+* Wishlist functionality
+* Reviews and ratings
+* Advanced search and filters
+* Interactive maps
+* Online payment integration
+* User profiles
+* Property owner dashboard
+* Booking management and notifications
+
+## License
+
+This project is developed for educational, development, and portfolio purposes.
+
+## Project
+
+**Roamstead**
+A modern platform for discovering unique stays and accommodation options.
+
+**Live:** https://roamstead-mu.vercel.app/
